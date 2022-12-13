@@ -1,7 +1,8 @@
 package com.dreamlogix.ecomecompose.navigation
 
-class Navigation {
+data class Navigation(
     var range : Int = 0,
-            lateinit var nn : String
+             var nn : String)
+{
 
 }
