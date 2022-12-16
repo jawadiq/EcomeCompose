@@ -29,10 +29,12 @@ class MainActivity : ComponentActivity() {
                 ) {
 
 
+
                     gerrting()
                     Spacer(modifier = Modifier.padding(10.dp))
 
                     Text(text = "just text")
+
                 }
             }
         }
