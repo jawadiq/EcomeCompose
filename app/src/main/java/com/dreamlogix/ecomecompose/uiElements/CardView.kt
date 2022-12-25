@@ -1,13 +1,13 @@
 package com.dreamlogix.ecomecompose.uiElements
 
+import android.graphics.Color.WHITE
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.Card
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.BlendMode.Companion.Color
 import androidx.compose.ui.text.SpanStyle
@@ -18,14 +18,11 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun CardView(){
-
     Card(
         modifier = Modifier
-
             .padding(15.dp)
             .clickable{ },
-
-    ) {
+        ) {
         Column(
             modifier = Modifier.padding(15.dp)
         ) {

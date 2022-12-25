@@ -19,9 +19,11 @@ class MainActivity : ComponentActivity() {
             Column(Modifier.height(200.dp)) {
 
                 Row(
-                    Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically
+                    Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                   cardDisplay()
+                    cardDisplay()
                     Spacer(modifier = Modifier.padding(10.dp))
                     Text(text = "just text")
                 }
@@ -32,9 +34,9 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun cardDisplay() {
-CardView()
-        }
+        CardView()
     }
+}
 
 
 //    @Preview(showBackground = true)
